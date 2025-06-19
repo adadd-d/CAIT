@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e;
+    color: white;
+    margin-top:40px ;
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 40px;
+    color:white;
+}
+
+h2 {
+    margin-bottom: 20px;
+	text-align:center;
+}
+
+.contr {
+    background-color: #2a2a2a;
+    padding: 20px;
+    border-radius: 10px;
+	width: 100%;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    box-shadow:0 0 18px #c6fdff ;  
+}
+
+.otstup{
+    margin-bottom: 15px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #3b3b3b;
+    color: #ffffff;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5d7239;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow:0 0 8px #c6fdff ;  
+}
+.links {
+    text-align: center;
+    margin-top: 20px;
+	
+}
+a {
+	text-decoration:none;
+    color: white;
+}
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+@media screen and (min-width: 320px){
+	p{
+		font-size:20px;
+	}
+	h1,h2{
+		font-size:35px;
+	}	
+	
+}
+@media screen and (min-width: 375px){
+	p{
+		font-size:25px;
+	}
+	h1,h2{
+		font-size:40px;
+	}	
+	
+}
+@media screen and (min-width: 2560px){
+    
+    .container{
+		max-width:1200px;
+    }
+	p{
+		font-size:30px;
+	}
+	h1,h2{
+		font-size:45px;
+	}	
+	
+}
